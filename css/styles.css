@@ -203,7 +203,7 @@ img {
 }
 
 .main-solutions-button {
-  display: block;
+  display: flex;
   margin: 0 auto;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -216,6 +216,11 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   cursor: pointer;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .main-solutions-button:hover,
