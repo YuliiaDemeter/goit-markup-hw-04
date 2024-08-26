@@ -263,7 +263,7 @@ img {
   flex-direction: column;
 }
 
-.features-list-title,
+.features-icons-item .features-list-title,
 .team-list-names {
   font-weight: 500;
   font-size: 20px;
@@ -271,6 +271,19 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+
+.features-icons-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  max-width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .features-list-text,
