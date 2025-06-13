@@ -428,8 +428,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
-  margin-bottom: 8px;
+  color: var(--navy-blue);  
 }
 
 .portfolio-list-text {
@@ -450,6 +449,7 @@ a {
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   padding: 32px 16px;
+  gap: 8px;
 }
 
 .portfolio-list-text {
